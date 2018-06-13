@@ -1,0 +1,19 @@
+{
+  "name": "arcgispack-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "arcgispack && react-scripts build",
+    "build:api": "arcgispack",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "arcgispack": "^0.0.2"
+  }
+}
