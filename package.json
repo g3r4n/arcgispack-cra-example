@@ -1,5 +1,5 @@
 {
-  "name": "arcgispack-example",
+  "name": "arcgispack-cra-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "arcgispack": "^0.0.2"
+    "arcgispack": "^0.0.3"
   }
 }
