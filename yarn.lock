@@ -2440,11 +2440,7 @@ dojo-webpack-plugin@^2.7.2:
     raw-loader "0.5.1"
     tmp "0.0.30"
 
-dojo@1.13.0, dojo@^1.9.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/dojo/-/dojo-1.13.0.tgz#62a7c53628f4f7acfa791a96924c67f39cd5861b"
-
-dojo@Esri/dojo#v1.13.0/esri-3.24.0:
+dojo@1.13.0, dojo@Esri/dojo#v1.13.0/esri-3.24.0, dojo@^1.9.0:
   version "1.13.0"
   resolved "https://codeload.github.com/Esri/dojo/tar.gz/3774881b7a71cfc8f4b406441050301c08020487"
 
@@ -6288,8 +6284,8 @@ react-dev-utils@^5.0.1:
     text-table "0.2.0"
 
 react-dom@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.4.0.tgz#099f067dd5827ce36a29eaf9a6cdc7cbf6216b1e"
+  version "16.4.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.4.1.tgz#7f8b0223b3a5fbe205116c56deb85de32685dad6"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -6346,8 +6342,8 @@ react-scripts@1.1.4:
     fsevents "^1.1.3"
 
 react@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.4.0.tgz#402c2db83335336fba1962c08b98c6272617d585"
+  version "16.4.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"

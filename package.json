@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "arcgispack && react-scripts build",
+    "build": "react-scripts build",
     "build:api": "arcgispack",
     "eject": "react-scripts eject"
   },
