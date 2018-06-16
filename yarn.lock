@@ -367,9 +367,9 @@ arcgis-js-api@4.7.2:
     maquette-jsx "~2.1.1"
     moment "2.20.1"
 
-arcgispack@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/arcgispack/-/arcgispack-0.0.3.tgz#eec96443d0903d61c9b27c44447780c43fcc7259"
+arcgispack@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/arcgispack/-/arcgispack-0.0.8.tgz#998cfce9508b1daf9e3074299e695dd218bc5e07"
   dependencies:
     "@arcgis/webpack-plugin" "^4.7.11"
     babel-core "^6.26.3"

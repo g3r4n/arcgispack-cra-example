@@ -5,15 +5,13 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "arcgispack": "^0.0.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:api": "arcgispack",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "arcgispack": "^0.0.3"
   }
 }
