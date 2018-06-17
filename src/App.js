@@ -5,7 +5,8 @@ import "./App.css";
 import "arcgis-js-api/themes/light/main.css";
 
 const map = new Map({
-  basemap: "streets-vector"
+  basemap: "dark-gray",
+  ground: "world-elevation"
 });
 
 class App extends Component {
