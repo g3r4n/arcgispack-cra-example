@@ -379,6 +379,10 @@ arcgis-js-api@~4.8.1:
     maquette-jsx "~2.1.1"
     moment "2.22.1"
 
+arcgis-wrapper@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/arcgis-wrapper/-/arcgis-wrapper-1.0.2.tgz#f71a98bc434377c784e580c68066dfe905858693"
+
 arcgispack@0.0.12:
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/arcgispack/-/arcgispack-0.0.12.tgz#116e2069f1940578440687b3f7f95604432ce537"
@@ -2373,7 +2377,7 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
-"dgrid@github:Esri/dgrid#v1.2.1/esri-3.22.0":
+dgrid@Esri/dgrid#v1.2.1/esri-3.22.0:
   version "1.2.1"
   resolved "https://codeload.github.com/Esri/dgrid/tar.gz/200a7fda418bec199f3b76a493fdfa7d4440698b"
 
@@ -2389,7 +2393,7 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-dijit@1.13.0, "dijit@github:Esri/dijit#v1.13.0/esri-3.25.0":
+dijit@1.13.0, dijit@Esri/dijit#v1.13.0/esri-3.25.0:
   version "1.13.0"
   resolved "https://codeload.github.com/Esri/dijit/tar.gz/e5845ba23949f30608a05831ec71233aa1079d3d"
   dependencies:
@@ -2456,11 +2460,11 @@ dojo@1.13.0, dojo@^1.9.0:
   version "1.13.0"
   resolved "https://codeload.github.com/Esri/dojo/tar.gz/3774881b7a71cfc8f4b406441050301c08020487"
 
-"dojo@github:Esri/dojo#v1.13.0/esri-3.25.0":
+dojo@Esri/dojo#v1.13.0/esri-3.25.0:
   version "1.13.0"
   resolved "https://codeload.github.com/Esri/dojo/tar.gz/659a900411ef533065c1536550d109fc6e03b68a"
 
-"dojox@github:Esri/dojox#v1.13.0/esri-3.25.0":
+dojox@Esri/dojox#v1.13.0/esri-3.25.0:
   version "1.13.0"
   resolved "https://codeload.github.com/Esri/dojox/tar.gz/5293dfefb913bea72a0a1ba57fc6998cff253ccc"
   dependencies:

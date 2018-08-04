@@ -1,13 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Map } from "arcgispack";
-import MapView from "./MapView";
-import "./App.css";
-import "arcgis-js-api/themes/light/main.css";
-
-const map = new Map({
-  basemap: "dark-gray",
-  ground: "world-elevation"
-});
+import ReactSceneView from "./ReactSceneView";
 
 class App extends Component {
   constructor() {
@@ -23,8 +15,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <MapView
-          map={map}
+        <ReactSceneView
           onCenterChange={center => {
             this.setState({ center });
           }}

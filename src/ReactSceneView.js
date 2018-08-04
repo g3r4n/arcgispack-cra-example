@@ -1,15 +1,22 @@
-import { SceneView,SceneLayer } from "arcgispack";
+import { Map, SceneView, SceneLayer } from "arcgis-wrapper";
 import React, { Component } from "react";
 
-export default class ReactMapView extends Component {
+export default class ReactSceneView extends Component {
+  constructor() {
+    super();
+    this.map = new Map({
+      basemap: "dark-gray",
+      ground: "world-elevation"
+    });
+  }
   componentDidMount() {
     var view = new SceneView({
       container: this.mapViewDiv,
-      map: this.props.map,
+      map: this.map,
       zoom: 4,
       camera: {
         position: [-74.0338, 40.6913, 707],
-        tilt: 81,
+        tilt: 80,
         heading: 50
       },
       ui: {
@@ -22,31 +29,29 @@ export default class ReactMapView extends Component {
       portalItem: {
         id: "2e0761b9a4274b8db52c4bf34356911e"
       },
-      popupEnabled: false
+      popupEnabled: false,
+      renderer: {
+        type: "simple", // autocasts as new SimpleRenderer()
+        symbol: {
+          type: "mesh-3d",
+          symbolLayers: [
+            {
+              type: "fill",
+              material: {
+                color: "#ffffff",
+                colorMixMode: "replace"
+              }
+              // edges: {
+              //   type: 'solid',
+              //   color: [0, 0, 0, 0.6],
+              //   size: 1
+              // }
+            }
+          ]
+        }
+      }
     });
-    this.props.map.add(sceneLayer);
-
-    // Create MeshSymbol3D for symbolizing SceneLayer
-    var symbol =  {
-      type: "mesh-3d" ,
-      symbolLayers: [{
-        type: "fill",
-        material: {
-          color: "#ffffff",
-          colorMixMode: "replace"
-        },
-        // edges: {
-        //   type: 'solid',
-        //   color: [0, 0, 0, 0.6],
-        //   size: 1
-        // }
-      }]
-    };
-    // Add the renderer to sceneLayer
-    sceneLayer.renderer = {
-      type: "simple", // autocasts as new SimpleRenderer()
-      symbol: symbol
-    };
+    this.map.add(sceneLayer);
   }
   _onCenterChange(center) {
     if (typeof this.props.onCenterChange === "function") {
