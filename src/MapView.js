@@ -35,11 +35,11 @@ export default class ReactMapView extends Component {
           color: "#ffffff",
           colorMixMode: "replace"
         },
-        edges: {
-          type: 'solid',
-          color: [0, 0, 0, 0.6],
-          size: 1
-        }
+        // edges: {
+        //   type: 'solid',
+        //   color: [0, 0, 0, 0.6],
+        //   size: 1
+        // }
       }]
     };
     // Add the renderer to sceneLayer
